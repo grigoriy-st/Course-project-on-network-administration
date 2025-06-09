@@ -1,0 +1,82 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Страница — 1" id="NJzaKzcTYLXWLCSRMIJb">
+    <mxGraphModel dx="1510" dy="2019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-1" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rackGeneral.rackCabinet3;fillColor2=#f4f4f4;container=1;collapsible=0;childLayout=rack;allowGaps=1;marginLeft=33;marginRight=9;marginTop=21;marginBottom=22;textColor=#666666;numDisp=ascend;" parent="1" vertex="1">
+          <mxGeometry x="-330" y="-230" width="204" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-13" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.cat5e_rack_mount_patch_panel_24_ports;" parent="mgKbfFrKjq5zTAM-VCFG-1" vertex="1">
+          <mxGeometry x="33" y="50" width="162" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-12" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.switches_1;" parent="mgKbfFrKjq5zTAM-VCFG-1" vertex="1">
+          <mxGeometry x="33" y="90" width="162" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-14" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.f5.firepass_4100;" parent="mgKbfFrKjq5zTAM-VCFG-1" vertex="1">
+          <mxGeometry x="33" y="140" width="162" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-15" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.gateways_controllers.aruba_9004_4_port_gbe_gateway_front;" parent="mgKbfFrKjq5zTAM-VCFG-1" vertex="1">
+          <mxGeometry x="33" y="180" width="162" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-8" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9774a_2530_8g_poeplus_front;" parent="1" vertex="1">
+          <mxGeometry x="-69" y="170" width="143" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-7" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9782a_2530_24_front;" parent="1" vertex="1">
+          <mxGeometry x="-78" y="90" width="162" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-24" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Патч&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:RU;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;панель&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot; lang=&quot;EN-US&quot;&gt; Lanmaster TWT-PP24UTP&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-95" y="-200" width="266" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-25" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;Коммутатор&amp;nbsp;D-Link DGS-1210-10&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-95" y="-140" width="261" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-26" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;ИБП Ippon Smart Winner II 1000&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-95" y="-95.5" width="266" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-27" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;Сетевой фильтр &lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;Pilot&lt;/span&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;S&lt;/span&gt;-&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;MAX&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size:14.0pt;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-ansi-language:RU;mso-fareast-language:RU;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-95" y="-65.5" width="246" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-31" value="" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rackGeneral.rackCabinet3;fillColor2=#f4f4f4;container=1;collapsible=0;childLayout=rack;allowGaps=1;marginLeft=33;marginRight=9;marginTop=21;marginBottom=22;textColor=#666666;numDisp=ascend;" parent="1" vertex="1">
+          <mxGeometry x="326" y="-320" width="204" height="309" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-4" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.dell.dell_poweredge_1u;" parent="mgKbfFrKjq5zTAM-VCFG-31" vertex="1">
+          <mxGeometry x="33" y="30" width="162" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-5" value="" style="shape=mxgraph.rack.hp.hp_proliant_dl360p_g8;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" parent="mgKbfFrKjq5zTAM-VCFG-31" vertex="1">
+          <mxGeometry x="33" y="80" width="162" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-32" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.cat5e_rack_mount_patch_panel_24_ports;" parent="mgKbfFrKjq5zTAM-VCFG-31" vertex="1">
+          <mxGeometry x="33" y="130" width="162" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-33" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.switches_1;" parent="mgKbfFrKjq5zTAM-VCFG-31" vertex="1">
+          <mxGeometry x="33" y="170" width="162" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-34" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.f5.firepass_4100;" parent="mgKbfFrKjq5zTAM-VCFG-31" vertex="1">
+          <mxGeometry x="33" y="210" width="162" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-35" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.gateways_controllers.aruba_9004_4_port_gbe_gateway_front;" parent="mgKbfFrKjq5zTAM-VCFG-31" vertex="1">
+          <mxGeometry x="33" y="260" width="162" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-36" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Патч&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:RU;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;панель&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot; lang=&quot;EN-US&quot;&gt; Lanmaster TWT-PP24UTP&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="-210" width="379" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-37" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;Коммутатор&amp;nbsp;D-Link DGS-1210-10&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="-157" width="261" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-38" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;ИБП Ippon Smart Winner II 1000&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="-115" width="266" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-39" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;Сетевой фильтр &lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;Pilot&lt;/span&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;S&lt;/span&gt;-&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;MAX&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size:14.0pt;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-ansi-language:RU;mso-fareast-language:RU;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="-75.5" width="246" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-40" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Сервер DSA-2208X&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="-255" width="266" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="mgKbfFrKjq5zTAM-VCFG-41" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Маршрутизатор D-Link DSR-150&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="-302" width="299" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
