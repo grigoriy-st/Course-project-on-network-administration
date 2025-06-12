@@ -1,0 +1,265 @@
+# Network commands
+
+## DGS-1210-10R
+
+enable
+configure terminal
+vlan 10
+name VLAN_10
+vlan 20
+name VLAN_20
+interface range FastEthernet0/1-2
+switchport mode access
+no shutdown
+
+interface FastEthernet0/1
+switchport access allowed vlan 10
+interface FastEthernet0/2
+switchport access allowed vlan 20
+interface FastEthernet0/3
+no shutdown
+switchport mode trunk
+switchport trunk allowed vlan 10,20
+
+## DGS-1210-10L
+
+enable
+configure terminal
+vlan 30
+name VLAN_10
+exit
+vlan 40
+name VLAN_20
+exit
+vlan 40
+name VLAN_40
+exit
+vlan 50
+name VLAN_50
+exit
+
+interface range FastEthernet0/1-2
+switchport mode access
+no shutdown
+
+interface range FastEthernet0/1-5
+no shutdown
+interface FastEthernet0/1
+switchport access allowed vlan 30
+interface vlan 30
+exit
+interface FastEthernet0/2
+switchport access allowed vlan 40
+interface vlan 40
+exit
+interface FastEthernet0/3
+switchport mode trunk
+switchport trunk allowed vlan 30,40,50,99
+exit
+interface FastEthernet0/4
+interface vlan 99
+switchport access allowed vlan 99
+exit
+interface FastEthernet0/5
+interface vlan 50
+switchport access allowed vlan 50
+exit
+
+
+## DGS-1520-28L
+enable
+configure terminal
+
+hostname DGS-1520-28L
+interface FastEthernet0/1
+switchport trunk encapsulation dot1q
+switchport trunk allowed vlan 10,20
+exit
+interface FastEthernet0/2
+no switchport
+ip address 192.168.100.2 255.255.255.0
+exit
+
+vlan 10
+name VLAN_10
+interface vlan 10
+exit
+vlan 20
+name VLAN_20
+interface vlan 20
+exit
+vlan 40
+name VLAN_40
+interface vlan 40
+no shutdown
+exit
+vlan 50
+name VLAN_50
+interface vlan 50
+no shutdown
+exit
+vlan 99
+name ADMIN
+interface vlan 99
+no shutdown
+exit
+
+interface vlan10
+ip address 192.168.10.1 255.255.255.0
+ip helper-address 192.168.10.1
+ip helper-address 192.168.100.1
+
+interface vlan 20
+ip address 192.168.20.1 255.255.255.0
+ip helper-address 192.168.20.1
+ip helper-address 192.168.100.1
+
+interface vlan 30
+router ospf 1
+router-id 2.2.2.2
+network 192.168.101.0 0.0.0.255 area 1
+network 192.168.10.0 0.0.0.255 area 1
+network 192.168.100.0 0.0.0.255 area 1
+network 192.168.20.0 0.0.0.255 area 1
+network 192.168.30.0 0.0.0.255 area 1
+network 192.168.40.0 0.0.0.255 area 1
+network 192.168.110.0 0.0.0.255 area 1
+network 192.178.50.0 0.0.0.255 area 1
+network 192.168.99.0 0.0.0.255 area 1
+network 192.168.50.0 0.0.0.255 area 1
+
+## DGS-1520-28L
+
+enable
+configure terminal
+
+hostname DGS-1520-28R
+vlan 30
+name VLAN_30
+exit
+interface vlan 30
+ip address 192.168.30.1 255.255.255.0
+ip helper
+exit
+vlan 40
+name VLAN_40
+exit
+interface vlan 40
+ip address 192.168.40.1 255.255.255.0
+exit
+vlan 50
+name VLAN_50
+exit
+interface vlan 50
+ip address 192.168.50.1 255.255.255.0
+exit
+vlan 99
+name ADMIN
+exit
+interface vlan 99
+ip address 192.168.99.1 255.255.255.0
+ip helper-address 192.168.99.1
+ip helper-address 192.168.101.1
+exit
+
+interface FastEthernet0/1
+switchport trunk encapsulation dot1q
+switchport trunk allowed vlan 30,40,50,99
+exit
+
+router ospf 1
+router-id 3.3.3.3
+network 192.168.101.0 0.0.0.255 area 1
+network 192.168.30.0 0.0.0.255 area 1
+network 192.168.40.0 0.0.0.255 area 1
+network 192.168.100.0 0.0.0.255 area 1
+network 192.168.20.0 0.0.0.255 area 1
+network 192.168.99.0 0.0.0.255 area 1
+network 192.168.50.0 0.0.0.255 area 1
+network 8.8.8.0 0.0.0.255 area 1
+
+## DSA-2108S
+
+enable
+configure terminal
+
+ip dhcp pool Study_AND_Recreation_POOL
+network 192.168.10.0 255.255.255.0
+default-router 192.168.10.1
+dns-server 8.8.8.8
+domain-name vlan10.local
+
+ip dhcp pool Sales_Dep
+network 192.168.20.0 255.255.255.0
+default-router 192.168.20.1
+dns-server 8.8.8.8
+
+ip dhcp pool Marketing_Office
+network 192.168.40.0 255.255.255.0
+default-router 192.168.40.1
+dns-server 8.8.8.8
+domain-name vlan40.local
+
+ip dhcp pool Cofference_Hall
+network 192.168.50.0 255.255.255.0
+default-router 192.168.50.1
+dns-server 8.8.8.8
+domain-name vlan50.local
+
+ip dhcp pool ADMINS
+network 192.168.99.0 255.255.255.0
+default-router 192.168.99.1
+dns-server 8.8.8.8
+domain-name admin.local
+exit 
+
+ip dhcp excluded-address 192.168.10.1
+ip dhcp excluded-address 192.168.20.1
+ip dhcp excluded-address 192.168.30.1
+ip dhcp excluded-address 192.168.40.1
+ip dhcp excluded-address 192.168.99.1
+ip dhcp excluded-address 192.168.99.3
+ip dhcp excluded-address 192.168.50.1
+
+router-id 1.1.1.1
+network 192.168.100.0 0.0.0.255 area 1
+network 192.168.30.0 0.0.0.255 area 1
+network 192.168.40.0 0.0.0.255 area 1
+network 192.168.20.0 0.0.0.255 area 1
+network 192.168.10.0 0.0.0.255 area 1
+network 201.0.110.0 0.0.0.255 area 1
+network 201.0.111.0 0.0.0.255 area 1
+network 192.168.99.0 0.0.0.255 area 1
+network 192.168.50.0 0.0.0.255 area 1
+network 192.168.101.0 0.0.0.255 area 1
+network 8.8.8.0 0.0.0.255 area 1
+
+ip access-list extended BLOCK-TO-ADMIN
+deny ip 192.168.40.0 0.0.0.255 192.168.99.0 0.0.0.255
+access-list 1 permit 192.168.10.0 0.0.0.255
+access-list 1 permit 192.168.20.0 0.0.0.255
+access-list 1 permit 192.168.30.0 0.0.0.255
+access-list 1 permit 192.168.40.0 0.0.0.255
+access-list 1 permit 192.168.50.0 0.0.0.255
+access-list 1 permit 192.168.99.0 0.0.0.255
+access-list 1 permit 192.168.100.0 0.0.0.255
+access-list 1 permit 192.168.101.0 0.0.0.255
+
+ip route 0.0.0.0 0.0.0.0 201.0.110.1 
+
+## ISP
+
+enable
+configure terminal
+
+interface Serial0/1/1
+ip address 201.0.110.1 255.255.255.0
+no shutdown
+
+ip route 192.168.0.0 255.255.0.0 201.0.110.2 
+ip route 192.168.10.0 255.255.255.0 201.0.110.2 
+ip route 192.168.20.0 255.255.255.0 201.0.110.2 
+ip route 192.168.30.0 255.255.255.0 201.0.110.2 
+ip route 192.168.40.0 255.255.255.0 201.0.110.2 
+ip route 192.168.100.0 255.255.255.0 201.0.110.2 
+ip route 192.168.101.0 255.255.255.0 201.0.110.2 
