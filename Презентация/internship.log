@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.5.25)  13 JUN 2025 14:17
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.5.25)  13 JUN 2025 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1158,6 +1158,117 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 ]
+
+[2
+
+]
+
+[3
+
+]
+File: images/Исходная схема.jpg Graphic file (type bmp)
+<images/Исходная схема.jpg>
+
+
+[4
+
+]
+File: images/Схема по курсовому(1 этаж).png Graphic file (type bmp)
+<images/Схема по курсовому(1 этаж).png>
+File: images/Схема по курсовому(2 этаж).png Graphic file (type bmp)
+<images/Схема по курсовому(2 этаж).png>
+
+
+[5
+
+]
+
+[6
+
+]
+File: images/Теоретико-графовая модель.png Graphic file (type bmp)
+<images/Теоретико-графовая модель.png>
+
+
+[7
+
+]
+File: images/Полная схема для расчётов(1 этаж).png Graphic file (type bmp)
+<images/Полная схема для расчётов(1 этаж).png>
+
+
+[8
+
+]
+File: images/Центры графа.png Graphic file (type bmp)
+<images/Центры графа.png>
+
+
+[9
+
+]
+File: images/Маршрутизатор.png Graphic file (type bmp)
+<images/Маршрутизатор.png>
+File: images/Коммутатор L3.jpg Graphic file (type bmp)
+<images/Коммутатор L3.jpg>
+File: images/Коммутатор L2.jpg Graphic file (type bmp)
+<images/Коммутатор L2.jpg>
+
+
+[10
+
+]
+File: images/Полная схема для расчётов длины кабеля.png Graphic file (type bmp)
+
+<images/Полная схема для расчётов длины кабеля.png>
+
+Overfull \vbox (6.20007pt too high) detected at line 163
+ []
+
+
+
+[11
+
+]
+File: images/Коммутационный шкаф.png Graphic file (type bmp)
+<images/Коммутационный шкаф.png>
+
+
+[12
+
+]
+File: images/Экономические расчёты.png Graphic file (type bmp)
+<images/Экономические расчёты.png>
+
+
+[13
+
+]
+File: images/Активное оборудование.png Graphic file (type bmp)
+<images/Активное оборудование.png>
+
+
+[14
+
+]
+File: images/Пассивное оборудование.png Graphic file (type bmp)
+<images/Пассивное оборудование.png>
+
+
+[15
+
+]
+File: images/Общая сумма.png Graphic file (type bmp)
+<images/Общая сумма.png>
+
+
+[16
+
+]
+
+[17
+
+]
 \tf@nav=\write6
 \openout6 = `internship.nav'.
 
@@ -1176,12 +1287,12 @@ Package rerunfilecheck Info: File `internship.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27636 strings out of 471459
- 586717 string characters out of 5520473
- 995624 words of memory out of 5000000
- 53638 multiletter control sequences out of 15000+600000
- 632017 words of font info for 82 fonts, out of 8000000 for 9000
+ 28014 strings out of 471459
+ 598124 string characters out of 5520473
+ 1000662 words of memory out of 5000000
+ 53994 multiletter control sequences out of 15000+600000
+ 632049 words of font info for 86 fonts, out of 8000000 for 9000
  704 hyphenation exceptions out of 8191
- 101i,15n,107p,440b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,107p,440b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on internship.pdf (1 page).
+Output written on internship.pdf (17 pages).
