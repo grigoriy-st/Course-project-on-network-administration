@@ -7,7 +7,16 @@
 \usepackage{tikz}
 
 \setbeamercovered{invisible}
+\setbeamertemplate{navigation symbols}{}
 
+% Настраиваем footline для отображения номера в правом нижнем углу
+\addtobeamertemplate{footline}{%
+	\hfill%
+	\raisebox{5pt}[0pt][0pt]{%
+		\scriptsize\insertframenumber\,/\,\inserttotalframenumber%
+	}%
+	\hspace{5pt}\vspace{5pt}%
+}{}
 % Настройки шрифта
 \setsansfont{Cascadia Code} % Основной шрифт
 \setmonofont{Monospace}[
@@ -19,7 +28,7 @@ Extension=.ttf
 \title{КТЗС.КП.КС312.22 ПЗ}
 \author{Старостин Г.М.}
 \begin{document}
-	
+
 \begin{frame}
 	\centering
 	 % Верхняя часть
@@ -48,7 +57,7 @@ Extension=.ttf
 \begin{frame}{Цели и задачи}
 	\begin{block}{\large Цель}
 		\begin{itemize}
-			\item Создать сеть, основываясь на ТЗ клиента
+			\item Создать рабочую инфраструктуру сети
 		\end{itemize}
 	\end{block}
 	
@@ -59,7 +68,8 @@ Extension=.ttf
 			\item Провести анализ объекта
 			\item Подобрать сетевое оборудование
 			\item Разработать схему сети
-			\item Рассчитать стоимость инфраструктуры сети
+			\item Разместить оборудование в стойке
+			\item Рассчитать стоимость построения инфраструктуры сети
 		\end{itemize}
 	\end{block}
 	
